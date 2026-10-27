@@ -36,8 +36,6 @@ img_datas/
 
 Input images should be four-band GeoTIFF files with bands ordered as `B`, `G`, `R`, and `NIR`. Labels should be single-band GeoTIFF files spatially aligned with the corresponding images. Each `*_image.tif` file must have a matching `*_label.tif` file. Class definitions, label encoding, normalization, and preprocessing should be adjusted in the relevant code when using a new dataset.
 
-The processed dataset is available from 1776298574@qq.com upon request.
-
 ## Training
 
 Prepare the dataset and SAM 2 checkpoint, configure the paths and training options defined in `train.py`, and run:
